@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="FinalPageCSS.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">Yeeyy ! Finally</h1>
+      </div>
+      <div class="gif_container">
+        <img
+          src="https://i.postimg.cc/wTDG30TB/yes.gif"
+          alt="Cute animated illustration"
+        />
+      </div>
+      <button class="btn" id="yesButton" onclick="">
+        Let's Fix a Date
+      </button>
+
+      <div id="calendarContainer">
+        <!-- Your calendar content goes here -->
+        <!-- For simplicity, I'm using a simple text input as a representation of a calendar -->
+        <input type="date" id="calendarInput" placeholder="Select a date">
+      </div>
+
+    </div>
+    <script>
+      document.getElementById('yesButton').addEventListener('click', function() {
+        var calendarContainer = document.getElementById('calendarContainer');
+        calendarContainer.style.display = (calendarContainer.style.display === 'block') ? 'none' : 'block';
+      });
+    </script>
+  </body>
+</html>

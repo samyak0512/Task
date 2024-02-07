@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap');
+
+body {
+    background-color: rgb(248, 134, 134);
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .coll {
+    width: 900px;
+    height: 350px;
+    object-fit:fill;
+    cursor: pointer;
+    transition: width 250ms ease, height 250ms ease;
+    border-radius: 5px;
+    background-color: rgb(86, 202, 255);
+    /* border-radius: rgb(155, 28, 148); */
+    margin-top: 200px;
+    display: inline-block;
+    position: relative;
+    left: -600px;
+  }
+  
+  h2 {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 30px;
+    color: rgb(238, 238, 238);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .coll-2 {
+    width: 700px;
+    height: 320px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: width 250ms ease, height 250ms ease;
+    border-radius: 5px;
+    background-color: rgb(11, 74, 168);
+    /* border-radius: rgb(155, 28, 148); */
+    margin-top: 200px;
+    display: inline-block;
+    position: relative;
+    right: 350px;
+  }
+  
+  .coll-2 h2 {
+    position: relative;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  .coll-3 {
+    width: 840px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: width 250ms ease, height 250ms ease;
+    border-radius: 5px;
+    background-color: rgb(71, 206, 18);
+    /* border-radius: rgb(155, 28, 148); */
+    margin-top: 200px;
+    display: inline-block;
+    position: relative;
+    left: -200px;
+    top: 10px;
+  }
+  
+  .coll-3 h2 {
+    display: inline;
+    justify-content: center;
+    font-size: 30px;
+    position: relative;
+    /* right: -30px; */
+    top: 60px;
+    left: 15px;
+  }
+  
+  .coll-4 {
+    width: 620px;
+    height: 300px;
+    object-fit: fill;
+    cursor: pointer;
+    transition: width 250ms ease, height 250ms ease;
+    border-radius: 5px;
+    background-color: rgb(255, 251, 0);
+    /* border-radius: rgb(155, 28, 148); */
+    margin-top: 200px;
+    display: inline-block;
+    position: relative;
+    left: -60px;
+  }
+  
+  .coll-4 h2 {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-self: center; */
+    font-size: 25px;
+    color: rgb(26, 25, 25);
+  }
+  
+  .coll-5 {
+    width: 700px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: width 250ms ease, height 250ms ease;
+    border-radius: 5px;
+    background-color: rgb(45, 209, 127);
+    /* border-radius: rgb(155, 28, 148); */
+    margin-top: 200px;
+    display: inline-block;
+    position: relative;
+    left: 156px;
+  }
+  
+  .coll-5 h2 {
+    font-size: 30px;
+  }
+  
+  .coll-6 {
+    width: 1500px;
+    height: 550px;
+    object-fit: fill;
+    cursor: pointer;
+    transition: width 250ms ease, height 250ms ease;
+    border-radius: 5px;
+    background-color: rgb(46, 46, 46);
+    /* border-radius: rgb(155, 28, 148); */
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    right: -500px;
+  }
+  
+  .coll-6 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(238, 104, 178);
+  }
+  a {
+    color: red;
+    font-size: 2rem !important;
+    text-decoration: none;
+  }
+
+
+  /* CLICK HERE BUTTON */
+/* 
+  #clkBtn {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid #FF0072;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #FF0072;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    margin-left: 3vw;
+  }
+  
+  #clkBtn:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #FF0072;
+    z-index: -1;
+  }
+  
+  #clkBtn:hover, #clkBtn:focus {
+    color: white;
+  }
+  
+  #clkBtn:hover:before, #clkBtn:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+  
+  #clkBtn:active {
+    transform: scale(0.9);
+  } */
+
+  #clkBtn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #fd1853;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+    border: none;
+    margin-left: 3vw;
+  }
+  
+  #clkBtn:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+  }
+  
+  #clkBtn:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+  }
+  
+  #clkBtn span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 18px 25px;
+    color: #fffcfd;
+    font-size: 1.125em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #clkBtn:hover span {
+    animation: scaleUp 0.3s ease-in-out;
+    color: #fd1853;
+  }
+  
+  #clkBtn:hover {
+    animation: scaleUp 0.3s ease-in-out;
+  }
+  
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(0.95);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .star-1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 25px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fd1853);
+    z-index: -5;
+    transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+  }
+  
+  .star-2 {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fd1853);
+    z-index: -5;
+    transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+  }
+  
+  .star-3 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fd1853);
+    z-index: -5;
+    transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+  }
+  
+  .star-4 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 8px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fd1853);
+    z-index: -5;
+    transition: all .8s cubic-bezier(0, 0.4, 0, 1.01);
+  }
+  
+  .star-5 {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fd1853);
+    z-index: -5;
+    transition: all .6s cubic-bezier(0, 0.4, 0, 1.01);
+  }
+  
+  .star-6 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fd1853);
+    z-index: -5;
+    transition: all .8s ease;
+  }
+  
+  #clkBtn:hover .star-1 {
+    position: absolute;
+    top: -2%;
+    left: 0%;
+    width: 25px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fd1853);
+    z-index: 2;
+  }
+  
+  #clkBtn:hover .star-2 {
+    position: absolute;
+    top: 34%;
+    left: 41.5%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fd1853);
+    z-index: 2;
+  }
+  
+  #clkBtn:hover .star-3 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fd1853);
+    z-index: 2;
+  }
+  
+  #clkBtn:hover .star-4 {
+    position: absolute;
+    top: 0%;
+    left: 55%;
+    width: 8px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fd1853);
+    z-index: 2;
+  }
+  
+  #clkBtn:hover .star-5 {
+    position: absolute;
+    top: 25%;
+    left: 85%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fd1853);
+    z-index: 2;
+  }
+  
+  #clkBtn:hover .star-6 {
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fd1853);
+    z-index: 2;
+  }
+  
+  

@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+    background: linear-gradient(rgb(0, 249, 236), rgb(71, 150, 229));
+  }
+  
+  #noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+    margin-top: 72px;
+  }
+  
+  #yesButton {
+    position: absolute;
+    margin-left: 8vh;
+    margin-top: 6vw;
+  }
+  
+  .header_text {
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .text {
+    font-family: "Nunito";
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .btn {
+    background-color: #017cff;
+    color: white;
+    font-weight: 600;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 3px black;
+  }
+  
+  .btn:hover {
+    background-color: #ffffff;
+    color: #017cff;
+  }
+  
+  .gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    color: white;
+    margin-left: 50%;
+  }
+  p a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.25;
+  }
+  
+  #calendarContainer {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000;
+    margin-left: 25vw;
+    margin-top: 8vh;
+  }
